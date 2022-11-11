@@ -1,1 +1,1 @@
-export { counterSlice, increment } from './counter/counterSlice';
+export { counterSlice, increment, decrement, incrementBy2 } from './counter/counterSlice';
