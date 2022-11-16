@@ -12,13 +12,13 @@ function App() {
       <h1>count is {counter}</h1>
       <div className="card">
         <button onClick={() =>  dispatch( increment() )}>
-          Increment
+         INCREMENT
         </button>
         <button onClick={() =>  dispatch( decrement() )}>
-          Decrement
+          DECREMENT
         </button>
         <button onClick={() =>  dispatch( incrementBy2(2) )}>
-          Increment by 2
+          INCREMENT BY 2
         </button>
       </div>
       
